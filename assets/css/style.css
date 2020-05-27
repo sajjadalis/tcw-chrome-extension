@@ -1,0 +1,139 @@
+body {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    text-align: center;
+    font:14px "Roboto", Helvetica, Arial, sans-serif;
+}
+.box {
+    background-color: #f5f4f4;
+    height: 100%;
+}
+.title {
+    display: flex;
+    background-color: #273238;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.title>h2 {
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+}
+.save-code-icon>a>img {
+    height: 35px;
+}
+.btn {
+    width: 150px;
+    margin: 15px auto;
+    display: block;
+    color: #fff;
+    padding: 0.8em;
+    transition: 0.3s;
+    border: 2px solid #ddd;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    background-color: #445a64;
+    position: relative;
+}
+.btn:hover {
+    background-color: grey;
+    border-color: transparent;
+    cursor: pointer; 
+}
+.btn.recent-saves{
+    background-color: #8BC34A;
+    border-color: transparent;
+}
+.btn.recent-saves:hover {
+    background-color: grey;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+.footer>.board {
+    float: left;
+}
+.footer>.help {
+    color: grey;
+    font-size: 12px;
+    padding: 10px;
+    float: right;
+}
+.footer:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: #273238;
+    box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.2);
+}
+header>.title>a>img {
+    height: 35px;
+}
+.title {
+    align-items: center;
+    display: flex;
+}
+.title>h1 {
+    display: inline-flex;
+    color: white;
+    padding-left: 10px;
+}
+header>a {
+    color: #f44336;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    padding: 10px;
+}
+li:before {
+    content: ">";
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+li>a {
+    color: #222;
+    text-decoration: none;
+}
+li:hover {
+    background: #cecece;
+}
+li>pre {
+    background: #1d1f23;
+    color: #fff;
+    padding: 10px;
+    overflow: scroll;
+}
+.hide {
+    display: none;
+}
+.expand {
+    float:right;
+    margin-top: 7px;
+}
+.back {
+    position: absolute;
+    right: 15px;
+    top: 30%;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+}

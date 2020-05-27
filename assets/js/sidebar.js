@@ -62,9 +62,9 @@ function buildList(data) {
 }
 
 //Function that sends request to content script to kill sidebar
-document.getElementById("destroySidebar").addEventListener("click", function () {
-    parent.window.postMessage("removesidebar", "*");
-});
+// document.getElementById("destroySidebar").addEventListener("click", function () {
+//     parent.window.postMessage("removesidebar", "*");
+// });
 
 //Expand/collapse code block in list
 document.addEventListener("click", function (event) {

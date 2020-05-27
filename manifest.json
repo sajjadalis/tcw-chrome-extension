@@ -4,12 +4,12 @@
   "description": "Save & organize code snippets that work",
   "permissions": ["declarativeContent", "activeTab", "storage", "contextMenus"],
   "background": {
-    "scripts": ["background.js", "popup.js", "context.js"],
+    "scripts": ["assets/js/background.js", "assets/js/popup.js", "assets/js/context.js"],
     "persistent": false
   },
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["content.js"]
+    "js": ["assets/js/content.js"]
   }],
   "page_action": {
     "default_popup": "popup.html",
